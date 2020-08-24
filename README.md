@@ -1,6 +1,7 @@
 # FizzBuzz
 
 JavaScript(ライブラリやフレームワークは未使用)で作成したFizzBuzzのリポジトリです。
+
 Jestでテストを作成しています。
 
 ## 仕様
