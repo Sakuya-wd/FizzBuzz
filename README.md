@@ -1,8 +1,27 @@
 # FizzBuzz
 
-JavaScript(ライブラリやフレームワークは未使用)で作成したFizzBuzzのリポジトリです。
+JavaScriptで作成したFizzBuzzのリポジトリです。
 
-Jestでテストを作成しています。
+### プログラム実行
+
+httpサーバーで実行して下さい。
+
+### テスト実行
+
+Jestでテストを作成していますのでテストを実行する際は、Jestを導入した上で一部ソースの変更願います。
+
+
+① FizzBuzzDisplay.jsファイルのimport {FizzBuzzCalc} from "./FizzBuzzCalc.js";をコメントし、
+
+　 const FizzBuzzCalc = require('./FizzBuzzCalc.js');のコメントを外して下さい。
+  
+② FizzBuzzCalc.jsファイルのexport {FizzBuzzCalc};をコメントし、
+
+　 module.exports = FizzBuzzCalc;のコメントを外して下さい。
+  
+### テストコマンド 
+
+  `npm run test`
 
 ## 仕様
 
