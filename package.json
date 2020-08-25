@@ -2,7 +2,7 @@
   "name": "fizzbuzz_tester",
   "version": "1.0.0",
   "description": "",
-  "main": "FizzBuzz.js",
+  "main": "FizzBuzzCalc.js",
   "scripts": {
     "test": "jest"
   },
