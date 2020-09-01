@@ -8,6 +8,7 @@ describe('FizzBuzzCalc', () =>{
        
         //例外処理が網羅されているかを確認。
         expect(() => FizzBuzzCalc('test')).toThrow();
+        expect(() => FizzBuzzCalc(1.1)).toThrow();
         expect(() => FizzBuzzCalc(-1)).toThrow();
         expect(() => FizzBuzzCalc(101)).toThrow();
 
