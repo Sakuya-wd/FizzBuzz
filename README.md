@@ -29,19 +29,35 @@
 
 httpサーバーで実行して下さい。
 
+実行するファイルはsrcに格納しています。
+
 結果はコンソールに表示します。
 
 
 ## テスト実行
 
-Jestでテストを作成していますのでテストを実行する際は、Jestを導入した上で一部ソースの変更願います。
-  
-FizzBuzzCalc.jsファイルのexport {FizzBuzzCalc};をコメントし、
+srcに格納しているFizzBuzzCalc.jsの一部ソースを下記通りに変更願います。
 
-module.exports = FizzBuzzCalc;のコメントを外して下さい。
+```javascript
   
-## テスト実行コマンド 
+module.exports = FizzBuzzCalc;
+//export {FizzBuzzCalc};
 
-  `npm run test`
+```
+
+一部パッケージの追加を願います。
+
+```
+
+npm install jest-cli
+
+```
+  
+ テスト実行コマンド 
+
+```
+npm run test
+
+```
 
 
