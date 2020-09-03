@@ -35,7 +35,6 @@ Web Server for Chromeは下記からインストールできます。
 
 ```
 https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=ja
-
 ```
 
 実行するファイルはsrcに格納しています。
@@ -48,23 +47,18 @@ https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoe
 srcに格納しているFizzBuzzCalc.jsの一部ソースを下記通りに変更願います。
 
 ```javascript
-  
 module.exports = FizzBuzzCalc;
 //export {FizzBuzzCalc};
-
 ```
 
 一部パッケージの追加を願います。
 
 ```
-
 npm install jest-cli
-
 ```
   
 テスト実行コマンド 
 
 ```
 npm run test
-
 ```
