@@ -72,5 +72,5 @@ return num;
 }
 
 
-module.exports = FizzBuzzCalc;
-//export {FizzBuzzCalc};
+//module.exports = FizzBuzzCalc;
+export {FizzBuzzCalc};
