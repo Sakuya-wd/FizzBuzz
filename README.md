@@ -10,7 +10,6 @@
 
 ・ 整数が5の倍数の時は、整数の代わりに`Buzz`を出力する。
 
-
 ## テスト
 
 ・ 引数が整数でない時、エラーを出力する。
@@ -41,7 +40,6 @@ https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoe
 
 結果はコンソールに表示します。
 
-
 ## テスト実行
 
 srcに格納しているFizzBuzzCalc.jsの一部ソースを下記通りに変更願います。
@@ -61,4 +59,12 @@ npm install jest-cli
 
 ```
 npm run test
+```
+
+## カバレッジ
+
+下記ディレクトリをブラウザで表示願います。
+
+```
+coverage/lcov-report/
 ```
