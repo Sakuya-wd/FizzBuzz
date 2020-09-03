@@ -27,7 +27,16 @@
 
 ## プログラム実行
 
-httpサーバーで実行して下さい。
+httpサーバーで実行を願います。
+
+Web Server for Chromeでhttpサーバーを起動できます。
+
+Web Server for Chromeは下記からインストールできます。
+
+```
+https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=ja
+
+```
 
 実行するファイルはsrcに格納しています。
 
@@ -53,11 +62,9 @@ npm install jest-cli
 
 ```
   
- テスト実行コマンド 
+テスト実行コマンド 
 
 ```
 npm run test
 
 ```
-
-
