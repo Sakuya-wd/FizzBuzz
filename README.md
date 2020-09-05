@@ -2,7 +2,7 @@
 
 ## プログラム仕様
 
-・ 1〜100までの整数を1から昇順にコンソールに出力する。
+・ 1〜100までの整数を1から昇順に出力する。
 
 ・ 整数が3と5の公倍数の時は、整数の代わりに`FizzBuzz`を出力する。(この時に`Fizz`と`Buzz`は出力しない)
 
@@ -12,20 +12,13 @@
 
 ## プログラム実行
 
-httpサーバーで実行を願います。
+srcのディレクトリ内にてプログラム実行コマンドを願います。
 
-Web Server for Chromeでhttpサーバーを起動できます。
-
-Web Server for Chromeは下記からインストールできます。
+プログラム実行コマンド 
 
 ```
-https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=ja
+node FizzBuzzDisplay.js
 ```
-
-実行するファイルはsrcに格納しています。
-
-結果はコンソールに表示します。
-
 
 ## テスト仕様
 
@@ -42,13 +35,6 @@ https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoe
 ・ 整数が3の倍数でも5の倍数でもない時、`整数`をそのまま出力する。
 
 ## テスト実行
-
-srcに格納しているFizzBuzzCalc.jsの一部ソースを下記通りに変更願います。
-
-```javascript
-module.exports = FizzBuzzCalc;
-//export {FizzBuzzCalc};
-```
   
 テスト実行コマンド 
 
