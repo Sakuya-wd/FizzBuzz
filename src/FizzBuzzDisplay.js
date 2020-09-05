@@ -1,6 +1,5 @@
 
-//const FizzBuzzCalc = require('./FizzBuzzCalc.js');
-import {FizzBuzzCalc} from "./FizzBuzzCalc.js";
+const FizzBuzzCalc = require('./FizzBuzzCalc.js');
 
 
 const FizzBuzzDisplay = () =>{
@@ -15,4 +14,6 @@ const FizzBuzzDisplay = () =>{
 
 
 FizzBuzzDisplay();
+
+module.exports = FizzBuzzDisplay;
 
