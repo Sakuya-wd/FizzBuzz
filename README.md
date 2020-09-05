@@ -49,17 +49,21 @@ srcに格納しているFizzBuzzCalc.jsの一部ソースを下記通りに変�
 module.exports = FizzBuzzCalc;
 //export {FizzBuzzCalc};
 ```
-
-一部パッケージの追加を願います。
-
-```
-npm install jest-cli
-```
   
 テスト実行コマンド 
 
 ```
 npm run test
+```
+
+Error: Cannot find moduleが出た場合node_modulesを削除し再インストール願います。
+
+```
+rm -rf node_modules
+```
+
+```
+npm install 
 ```
 
 ## カバレッジ
