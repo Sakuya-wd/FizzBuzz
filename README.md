@@ -56,7 +56,7 @@ module.exports = FizzBuzzCalc;
 npm run test
 ```
 
-Error: Cannot find moduleが出た場合node_modulesを削除し再インストール願います。
+Error: Cannot find moduleが出た場合はnode_modulesを削除し再インストール願います。
 
 ```
 rm -rf node_modules
