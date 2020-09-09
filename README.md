@@ -44,9 +44,13 @@ npm run test
 
 Error: Cannot find moduleが出た場合はnode_modulesを削除し再インストール願います。
 
+削除コマンド
+
 ```
 rm -rf node_modules
 ```
+
+インストールコマンド
 
 ```
 npm install 
