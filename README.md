@@ -1,5 +1,23 @@
 # FizzBuzz
 
+## 開発環境
+
+OS: macOS Catalina(バージョン10.15.6)
+
+ターミナル: Terminal.app
+
+エディター: Visual Studio Code 2
+
+開発言語: JavaScript Jeat
+
+バージョン管理: Git
+
+Node.js: (バージョンv14.7.0)
+
+パッケージ管理: npm (バージョン6.14.8)
+
+使用パッケージ: ESLint Prettier husky lint-staged
+
 ## プログラム仕様
 
 ・ 1〜100までの整数を1から昇順に出力する。
