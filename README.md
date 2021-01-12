@@ -108,3 +108,17 @@ git comit時にgit addしたjsファイルの構文チェックを行います�
 その際はプログラムを修正し再度git add後git commit願います。
 
 構文にerrorとwarningがない場合は自動でコード整形します。
+
+## 作成理由
+
+JavaScript Jestの基本文法を学習すると同時に、
+
+エンジニアの採用試験にFizzBuzzのコーディングを聞かれる場合があるので事前に対策。
+
+プログラムの品質を自動的に保つため、ESLint Prettier husky lint-stagedを学習。
+
+
+
+
+
+
