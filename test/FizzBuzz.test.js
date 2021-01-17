@@ -1,3 +1,5 @@
+//git commit時にeslintで構文チェックしprettierでコードフォーマットを修正する。
+
 const FizzBuzzCalc = require("../src/FizzBuzzCalc.js");
 
 describe("FizzBuzzCalc関数を単体テストする。", () => {
