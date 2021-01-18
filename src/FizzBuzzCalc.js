@@ -34,31 +34,26 @@ const FizzBuzzCalc = (num) => {
 const DifferentType = (num) => {
   if (typeof num !== "number") return true;
   if (Math.round(num) != num) return true;
-
   return false;
 };
 
 const OutOfRange = (num) => {
   if (num < 1 || 100 < num) return true;
-
   return false;
 };
 
 const isFizzBuzz = (num) => {
   if (num % 3 == 0 && num % 5 == 0) return true;
-
   return false;
 };
 
 const isFizz = (num) => {
   if (num % 3 == 0) return true;
-
   return false;
 };
 
 const isBuzz = (num) => {
   if (num % 5 == 0) return true;
-
   return false;
 };
 
