@@ -14,9 +14,13 @@ OS: macOS Catalina(バージョン10.15.6 ~ 10.15.7)
 
 Node.js: (バージョンv14.7.0)
 
-パッケージ管理: npm (バージョン6.14.8)
+パッケージ管理: npm(バージョン6.14.8)
 
-使用パッケージ: ESLint Prettier husky lint-staged
+使用パッケージ: eslint(バージョン7.22.0), eslint-config-prettier(バージョン8.1.0), eslint-plugin-jest(バージョン24.3.2),
+
+eslint-plugin-prettier(バージョン3.3.1), husky(バージョン4.3.0), jest(バージョン26.4.0), lint-staged(バージョン10.5.4),
+
+prettier(バージョン2.2.1)
 
 ## プログラム仕様
 
