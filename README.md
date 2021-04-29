@@ -87,7 +87,7 @@ npm install
 テスト実行コマンド
 
 ```
-npm run test
+jest
 ```
 
 Error: Cannot find moduleが出た場合はnode_modulesを削除し再度インストール願います。
