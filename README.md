@@ -52,14 +52,6 @@ srcディレクトリ内にてプログラム実行コマンドを願います�
 node FizzBuzzDisplay.js
 ```
 
-Error: Cannot find moduleが出た場合はnode_modulesを削除し再度インストール願います。
-
-削除コマンド
-
-```
-rm -rf node_modules
-```
-
 ## テスト仕様
 
 ・ 引数が整数でない時、エラーを出力する。
@@ -88,14 +80,6 @@ npm install
 
 ```
 jest
-```
-
-Error: Cannot find moduleが出た場合はnode_modulesを削除し再度インストール願います。
-
-削除コマンド
-
-```
-rm -rf node_modules
 ```
 
 ## カバレッジ
