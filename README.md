@@ -79,7 +79,7 @@ npm install
 テスト実行コマンド
 
 ```
-jest
+test
 ```
 
 ## カバレッジ
