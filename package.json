@@ -1,10 +1,9 @@
 {
-  "name": "fizzbuzz_tester",
-  "version": "1.0.0",
-  "description": "",
-  "main": "./src/FizzBuzzCalc.js",
+  "name": "FizzBuzz",
+  "version": "1.1.4",
+  "author": "Sakuya-wd",
   "scripts": {
-    "test": "jest"
+    "test": "jest test/FizzBuzz.test.js"
   },
   "husky": {
     "hooks": {
@@ -14,8 +13,6 @@
   "lint-staged": {
     "*.js": "eslint --fix --max-warnings 0"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^7.25.0",
