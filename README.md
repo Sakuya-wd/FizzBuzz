@@ -111,6 +111,10 @@ JavaScript Jestの基本文法を学習すると同時に、
 
 プログラムの品質を自動的に保つため、ESLint Prettier husky lint-stagedを学習。
 
+## ライセンス
+
+[MIT](./LICENSE)
+
 
 
 
